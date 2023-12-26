@@ -1,0 +1,11 @@
+.input {
+  @apply border rounded w-full px-2 text-base h-[34px] max-w-[390px];
+}
+
+input[type="radio"]:checked {
+  background-color: red;
+}
+
+.textarea {
+  @apply border rounded w-full px-2 text-base max-w-[390px];
+}

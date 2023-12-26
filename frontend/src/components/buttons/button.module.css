@@ -1,0 +1,11 @@
+.btn {
+  @apply bg-primary text-white text-base rounded py-2 px-4 disabled:opacity-80 disabled:cursor-not-allowed min-h-[40px] items-center;
+}
+
+.text {
+  @apply text-primary bg-transparent py-0 px-0;
+}
+
+.outlined {
+  @apply border rounded bg-white text-primary;
+}

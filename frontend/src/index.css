@@ -1,0 +1,79 @@
+@tailwind base;
+@layer base {
+  :root {
+    --color-primary: 19, 48, 76; /** #13304c */
+
+    --color-secondary: 24, 131, 194; /** #1883c2 */
+    --color-white: 255, 255, 255; /** #ffffff */
+    --color-danger: 237, 67, 67; /** #ed4343 */
+    --color-orange: rgb(243, 129, 91); /** F3815B */
+
+    --color-bg: 243, 244, 245; /** #f3f4f5 */
+    --color-bg-black: 0, 0, 0; /** #000000 */
+    --color-bg-white: 255, 255, 255; /** #ffffff */
+
+    --color-bg-primary: 24, 131, 194; /** #1883c2 */
+    --color-bg-hover: #1883c233; /** #1883C233 */
+    --color-bg-secondary: 246, 247, 248; /** #f6f7f8 */
+    --color-bg-side: 19, 48, 76 /** #13304C */;
+    --color-border: 172, 180, 185; /** #ACB4B9 */
+    --color-bg-loader: #13304c4d;
+    --color-divider: #e1e4e51a;
+    --color-bg-list: rgb(241, 248, 249); /** #f1f8f9 */
+
+    --gradient-blue: linear-gradient(96.36deg, #08cce2 -4.01%, #1883c2 92.93%);
+
+    --sidebar-width: 230px;
+  }
+
+  html {
+    @apply text-primary bg-secondary font-inter;
+  }
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  h4 {
+    @apply text-lg font-medium;
+  }
+
+  h5 {
+    @apply text-md;
+  }
+
+  h6 {
+    @apply text-base;
+  }
+
+  p {
+    @apply text-sm;
+  }
+
+  label {
+    @apply text-base font-medium mb-1;
+  }
+
+  span {
+    @apply text-xs;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
+}

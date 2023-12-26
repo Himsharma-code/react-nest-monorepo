@@ -1,0 +1,19 @@
+{
+  "auth": {
+    "singIn": "Sign In",
+    "signUp": "Sign Up",
+    "dontAccount": "Don't have an account yet?",
+    "forgotPassword": "Forgot Password?",
+    "forgotYourPassword": "Forgot your password?",
+    "termsCondition": "I agree with the Terms of Service & Privacy Policy",
+    "alreadyAccount": "Already have an account?",
+    "resetPasswordForm": "Reset Password Form",
+    "enterEmail": "Enter Email",
+    "sendOtp": "Send OTP",
+    "otpVerification": "OTP Verification",
+    "enterOtp": "Enter OTP",
+    "verify": "Verify",
+    "enterNewPassword": "Enter New Password",
+    "confirmNewPassword": "Confirm New Password"
+  }
+}
